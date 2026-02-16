@@ -3,20 +3,15 @@
   "owner": {
     "name": "Vyker"
   },
-  "metadata": {
-    "description": "All-in-one Claude Code starter kit: skills, commands, hooks, and tools for team development",
-    "version": "1.0.0"
-  },
   "plugins": [
     {
       "name": "vyker-claude-starterkit",
+      "description": "24 skills, 11 commands, 7 hooks for team development — TDD, security, governance, code review, deploy pipeline, and more",
+      "author": {
+        "name": "Vyker"
+      },
       "source": "./plugins/vyker-claude-starterkit",
-      "description": "24 skills, 11 commands, 7 hooks, code reviewer agent, GitHub MCP, and automated deploy pipeline — bundled into one plugin",
-      "version": "1.0.0",
-      "category": "development",
-      "keywords": ["skills", "tdd", "debugging", "security", "frontend", "deploy", "starter-kit"],
-      "license": "MIT",
-      "strict": true
+      "category": "development"
     }
   ]
 }
