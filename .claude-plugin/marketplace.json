@@ -4,16 +4,13 @@
     "name": "Vyker"
   },
   "metadata": {
-    "description": "All-in-one Claude Code starter kit: superpowers, frontend design, security, CLAUDE.md management, and deployment",
+    "description": "All-in-one Claude Code starter kit: skills, commands, hooks, and tools for team development",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "vyker-claude-starterkit",
-      "source": {
-        "source": "github",
-        "repo": "Vyker6/vyker-claude-starterkit"
-      },
+      "source": "./plugins/vyker-claude-starterkit",
       "description": "24 skills, 11 commands, 7 hooks, code reviewer agent, GitHub MCP, and automated deploy pipeline — bundled into one plugin",
       "version": "1.0.0",
       "category": "development",
