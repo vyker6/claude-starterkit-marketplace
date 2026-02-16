@@ -1,8 +1,0 @@
-{
-  "name": "vyker-claude-starterkit",
-  "description": "All-in-one Claude Code plugin: superpowers, frontend design, security, CLAUDE.md management, and custom skills",
-  "version": "1.0.0",
-  "author": { "name": "Vyker" },
-  "license": "MIT",
-  "keywords": ["skills", "tdd", "debugging", "security", "frontend", "deploy", "starter-kit"]
-}
