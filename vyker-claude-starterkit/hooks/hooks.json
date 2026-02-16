@@ -13,6 +13,16 @@
             "type": "command",
             "command": "${CLAUDE_PLUGIN_ROOT}/hooks/check-branch.sh",
             "async": false
+          },
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/check-branch-naming.sh",
+            "async": false
+          },
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/check-stale-branch.sh",
+            "async": false
           }
         ]
       }
@@ -35,6 +45,16 @@
           {
             "type": "command",
             "command": "${CLAUDE_PLUGIN_ROOT}/hooks/gate-push.sh",
+            "async": false
+          },
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/lint-commit-msg.sh",
+            "async": false
+          },
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/warn-large-diff.sh",
             "async": false
           }
         ]
